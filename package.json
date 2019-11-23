@@ -1,7 +1,7 @@
 {
-  "name": "create-release",
+  "name": "delete-release",
   "version": "1.0.0",
-  "description": "Create a release",
+  "description": "Delete a release by tag",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint 'src/**.js' 'tests/**.js' --fix",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/create-release"
+    "url": "git+https://github.com/jagger27/delete-release"
   },
   "keywords": [
     "actions",
@@ -40,7 +40,7 @@
   "jest": {
     "testEnvironment": "node",
     "collectCoverageFrom": [
-      "src/create-release.js"
+      "src/delete-release.js"
     ],
     "coverageThreshold": {
       "global": {
