@@ -423,7 +423,7 @@ async function run() {
     const deleteReleaseResponse = await github.repos.deleteRelease({
       owner: owner,
       repo: repo,
-      id: id
+      id: releaseId
     });
 
     // Set the output variables for use by other actions: https://github.com/actions/toolkit/tree/master/packages/core#inputsoutputs
